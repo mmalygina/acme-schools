@@ -3,7 +3,6 @@ import {Modal, ModalHeader, ModalBody, ModalFooter} from 'reactstrap';
 import {connect} from 'react-redux';
 
 const DeleteModal = ({confirm, unset, toDelete, body, history}) => {
-    console.log('!', history)
     return (
         <Modal isOpen={true}>
         <ModalHeader>Please confirm deletion</ModalHeader>
